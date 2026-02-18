@@ -1,4 +1,4 @@
-# IA_Ejercicios
+# IA_Ejercicios Andres Avendaño
 # Ejercicios_IA
 Proyecto: Integración con Gemini – Ejercicios Prácticos
 Descripción
