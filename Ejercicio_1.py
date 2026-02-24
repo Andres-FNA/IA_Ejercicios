@@ -5,7 +5,7 @@ from google.genai import types
 
 # Cargar API Key
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("GENAI_API_KEY")
 client = genai.Client(api_key=API_KEY)
 
 # Configuración del chat
@@ -27,3 +27,4 @@ try:
     print(f"\nAsistente: {respuesta.text}")
 except Exception as e:
     print(f"Error al procesar la solicitud: {e}")
+
